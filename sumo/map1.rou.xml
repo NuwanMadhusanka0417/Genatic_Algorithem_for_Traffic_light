@@ -1,0 +1,10 @@
+<routes>
+   
+   <vType id="bus1" length="15" maxSpeed="30" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus"/>
+ <vType id="bus2" length="15" maxSpeed="30" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus"/>
+ <vType id="bus3" length="15" maxSpeed="30" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus"/>
+   
+   <flow id="bus1" type="bus1" from="-163132714#3" to="-182834260#3" begin="0" end="0" number="3" departPos="last"/>
+  <flow id="bus2" type="bus2" from="-182834258#1" to="182834256#2" begin="0" end="0" number="2" departPos="last"/>
+  <flow id="bus3" type="bus3" from="182834256#2" to="-182834258#1" begin="0" end="0" number="2" departPos="last"/>
+</routes>
